@@ -34,9 +34,22 @@ public class DisplayStudentServlet extends HttpServlet {
 		PreparedStatement prestmt = null;
 		ResultSet rs = null;
 		
+		/*
 		final String DB_URL = "jdbc:postgresql://localhost:5432/ajdb20";
 		final String DB_USER = "root";
 		final String DB_PWD = "root";
+		final String DB_DRIVER = "org.postgresql.Driver";
+		*/
+		/*
+		 * final String DB_URL =
+		 * "jdbc:postgresql://ep-dawn-credit-a1771p9h-pooler.ap-southeast-1.aws.neon.tech/neondb";
+		 * final String DB_USER = "neondb_owner"; final String DB_PWD =
+		 * "npg_DqU1wCsZK2Sr"; final String DB_DRIVER = "org.postgresql.Driver";
+		 */
+		
+		final String DB_URL = "jdbc:postgresql://db.pdkjlqfbrcgjzpvomssd.supabase.co/postgres";
+		final String DB_USER = "postgres";
+		final String DB_PWD = "BpxBhrOF3haCZAir";
 		final String DB_DRIVER = "org.postgresql.Driver";
 		
 		String qry = "";
