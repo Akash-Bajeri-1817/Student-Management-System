@@ -18,7 +18,7 @@
 			if(status == true)
 			{
 				fetch(
-					"http://localhost:8080/Student-Management-System/delete",
+					"./delete",
 					{
 						method: "POST",
 						body  : new URLSearchParams({"trno": srno})

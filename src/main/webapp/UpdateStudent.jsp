@@ -40,7 +40,7 @@
 			var updateSrno = modalRno.value
 			var updateName = modalName.value
 			var updatePer = modalPer.value
-			fetch("http://localhost:8080/Student-Management-System/update",
+			fetch("./update",
 				  {
 					method : 'POST',
 					body  : new URLSearchParams({"trno": updateSrno, "tname" : updateName, "tper" : updatePer})
