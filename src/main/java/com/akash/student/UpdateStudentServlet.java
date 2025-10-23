@@ -41,7 +41,7 @@ public class UpdateStudentServlet extends HttpServlet {
 		final String DB_DRIVER = "org.postgresql.Driver";
 		*/
 		
-		final String DB_URL = "jdbc:postgresql://db.pdkjlqfbrcgjzpvomssd.supabase.co/postgres";
+		final String DB_URL = "jdbc:postgresql://db.pdkjlqfbrcgjzpvomssd.supabase.co:6543/postgres";
 		final String DB_USER = "postgres";
 		final String DB_PWD = "BpxBhrOF3haCZAir";
 		final String DB_DRIVER = "org.postgresql.Driver";
