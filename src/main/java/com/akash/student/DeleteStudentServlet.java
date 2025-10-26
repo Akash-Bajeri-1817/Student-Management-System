@@ -50,7 +50,7 @@ public class DeleteStudentServlet extends HttpServlet {
 		final String DB_URL = "jdbc:postgresql://db.pdkjlqfbrcgjzpvomssd.supabase.co/postgres";
 		final String DB_USER = "postgres";
 		final String DB_PWD = "BpxBhrOF3haCZAir";
-		final String DB_DRIVER = "org.postgresql.Driver";
+		final String DB_DRIVER = "org.postgresql.Driver"; 
 		
 		String qry = "";
 		String srno = request.getParameter("srno");
@@ -119,17 +119,17 @@ public class DeleteStudentServlet extends HttpServlet {
 		 * final String DB_USER = "neondb_owner"; final String DB_PWD =
 		 * "npg_DqU1wCsZK2Sr"; final String DB_DRIVER = "org.postgresql.Driver";
 		 */
-		/*
+		
 		final String DB_URL = "jdbc:postgresql://db.pdkjlqfbrcgjzpvomssd.supabase.co/postgres";
 		final String DB_USER = "postgres";
 		final String DB_PWD = "BpxBhrOF3haCZAir";
-		final String DB_DRIVER = "org.postgresql.Driver"; */
+		final String DB_DRIVER = "org.postgresql.Driver"; 
 		
-		  final String DB_URL ="jdbc:postgresql://ep-dawn-credit-a1771p9h-pooler.ap-southeast-1.aws.neon.tech/neondb";
-		  final String DB_USER = "neondb_owner";
-		  final String DB_PWD ="npg_DqU1wCsZK2Sr"; 
-		  final String DB_DRIVER = "org.postgresql.Driver";
-		 
+		/*final String DB_URL ="jdbc:postgresql://ep-misty-sound-a1oah7m7-pooler.ap-southeast-1.aws.neon.tech/neondb";
+		 final String DB_USER = "neondb_owner";
+		 final String DB_PWD ="npg_K2WJZ1gxRLlc"; 
+		 final String DB_DRIVER = "org.postgresql.Driver";*/
+		
 		String trno = request.getParameter("trno");
 		String query = "delete from student where rno="+trno;
 		

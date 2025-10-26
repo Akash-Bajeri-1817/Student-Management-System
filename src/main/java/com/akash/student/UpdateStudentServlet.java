@@ -130,10 +130,10 @@ public class UpdateStudentServlet extends HttpServlet {
 	private static final String DB_PWD = "BpxBhrOF3haCZAir";
 	private static final String DB_DRIVER = "org.postgresql.Driver";
 */
-	  final String DB_URL ="jdbc:postgresql://ep-dawn-credit-a1771p9h-pooler.ap-southeast-1.aws.neon.tech/neondb";
-	  final String DB_USER = "neondb_owner";
-	  final String DB_PWD ="npg_DqU1wCsZK2Sr"; 
-	  final String DB_DRIVER = "org.postgresql.Driver";
+	final String DB_URL = "jdbc:postgresql://db.pdkjlqfbrcgjzpvomssd.supabase.co/postgres";
+	final String DB_USER = "postgres";
+	final String DB_PWD = "BpxBhrOF3haCZAir";
+	final String DB_DRIVER = "org.postgresql.Driver"; 
 	 
 	
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
@@ -225,11 +225,10 @@ public class UpdateStudentServlet extends HttpServlet {
 		Connection con = null;
 		PreparedStatement prestmt = null;
 		
-		  final String DB_URL ="jdbc:postgresql://ep-dawn-credit-a1771p9h-pooler.ap-southeast-1.aws.neon.tech/neondb";
-		  final String DB_USER = "neondb_owner";
-		  final String DB_PWD ="npg_DqU1wCsZK2Sr"; 
-		  final String DB_DRIVER = "org.postgresql.Driver";
-		 
+		final String DB_URL = "jdbc:postgresql://db.pdkjlqfbrcgjzpvomssd.supabase.co/postgres";
+		final String DB_USER = "postgres";
+		final String DB_PWD = "BpxBhrOF3haCZAir";
+		final String DB_DRIVER = "org.postgresql.Driver"; 
 		
 		String trno = request.getParameter("trno");
 		String tper = request.getParameter("tper");
