@@ -40,10 +40,10 @@ public class DisplayStudentServlet extends HttpServlet {
 		final String DB_DRIVER = "org.postgresql.Driver";
 		*/
 		
-		final String DB_URL = "jdbc:postgresql://db.pdkjlqfbrcgjzpvomssd.supabase.co/postgres";
-		final String DB_USER = "postgres";
-		final String DB_PWD = "BpxBhrOF3haCZAir";
-		final String DB_DRIVER = "org.postgresql.Driver"; 
+		 final String DB_URL ="jdbc:postgresql://ep-misty-sound-a1oah7m7-pooler.ap-southeast-1.aws.neon.tech/neondb";
+		 final String DB_USER = "neondb_owner";
+		 final String DB_PWD ="npg_K2WJZ1gxRLlc"; 
+		 final String DB_DRIVER = "org.postgresql.Driver";
 		 
 			/*
 			 * final String DB_URL =
